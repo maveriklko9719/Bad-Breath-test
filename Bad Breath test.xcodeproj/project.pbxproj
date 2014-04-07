@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E130EA5E18F2FACA00FC8314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E130EA5D18F2FACA00FC8314 /* Foundation.framework */; };
+		E130EA6018F2FACA00FC8314 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E130EA5F18F2FACA00FC8314 /* CoreGraphics.framework */; };
+		E130EA6218F2FACA00FC8314 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E130EA6118F2FACA00FC8314 /* UIKit.framework */; };
+		E130EA6818F2FACA00FC8314 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E130EA6618F2FACA00FC8314 /* InfoPlist.strings */; };
+		E130EA6A18F2FACA00FC8314 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E130EA6918F2FACA00FC8314 /* main.m */; };
+		E130EA6E18F2FACA00FC8314 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E130EA6D18F2FACA00FC8314 /* AppDelegate.m */; };
+		E130EA7118F2FACA00FC8314 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E130EA6F18F2FACA00FC8314 /* Main_iPhone.storyboard */; };
+		E130EA7418F2FACA00FC8314 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E130EA7218F2FACA00FC8314 /* Main_iPad.storyboard */; };
+		E130EA7718F2FACA00FC8314 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E130EA7618F2FACA00FC8314 /* ViewController.m */; };
+		E130EA7918F2FACA00FC8314 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E130EA7818F2FACA00FC8314 /* Images.xcassets */; };
+		E130EA8018F2FACA00FC8314 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E130EA7F18F2FACA00FC8314 /* XCTest.framework */; };
+		E130EA8118F2FACA00FC8314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E130EA5D18F2FACA00FC8314 /* Foundation.framework */; };
+		E130EA8218F2FACA00FC8314 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E130EA6118F2FACA00FC8314 /* UIKit.framework */; };
+		E130EA8A18F2FACA00FC8314 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E130EA8818F2FACA00FC8314 /* InfoPlist.strings */; };
+		E130EA8C18F2FACA00FC8314 /* Bad_Breath_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E130EA8B18F2FACA00FC8314 /* Bad_Breath_testTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E130EA8318F2FACA00FC8314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E130EA5218F2FACA00FC8314 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E130EA5918F2FACA00FC8314;
+			remoteInfo = "Bad Breath test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E130EA5A18F2FACA00FC8314 /* Bad Breath test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bad Breath test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E130EA5D18F2FACA00FC8314 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E130EA5F18F2FACA00FC8314 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E130EA6118F2FACA00FC8314 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E130EA6518F2FACA00FC8314 /* Bad Breath test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bad Breath test-Info.plist"; sourceTree = "<group>"; };
+		E130EA6718F2FACA00FC8314 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E130EA6918F2FACA00FC8314 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E130EA6B18F2FACA00FC8314 /* Bad Breath test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bad Breath test-Prefix.pch"; sourceTree = "<group>"; };
+		E130EA6C18F2FACA00FC8314 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E130EA6D18F2FACA00FC8314 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E130EA7018F2FACA00FC8314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E130EA7318F2FACA00FC8314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E130EA7518F2FACA00FC8314 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E130EA7618F2FACA00FC8314 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E130EA7818F2FACA00FC8314 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E130EA7E18F2FACA00FC8314 /* Bad Breath testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bad Breath testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E130EA7F18F2FACA00FC8314 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E130EA8718F2FACA00FC8314 /* Bad Breath testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bad Breath testTests-Info.plist"; sourceTree = "<group>"; };
+		E130EA8918F2FACA00FC8314 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E130EA8B18F2FACA00FC8314 /* Bad_Breath_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bad_Breath_testTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E130EA5718F2FACA00FC8314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E130EA6018F2FACA00FC8314 /* CoreGraphics.framework in Frameworks */,
+				E130EA6218F2FACA00FC8314 /* UIKit.framework in Frameworks */,
+				E130EA5E18F2FACA00FC8314 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E130EA7B18F2FACA00FC8314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E130EA8018F2FACA00FC8314 /* XCTest.framework in Frameworks */,
+				E130EA8218F2FACA00FC8314 /* UIKit.framework in Frameworks */,
+				E130EA8118F2FACA00FC8314 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E130EA5118F2FACA00FC8314 = {
+			isa = PBXGroup;
+			children = (
+				E130EA6318F2FACA00FC8314 /* Bad Breath test */,
+				E130EA8518F2FACA00FC8314 /* Bad Breath testTests */,
+				E130EA5C18F2FACA00FC8314 /* Frameworks */,
+				E130EA5B18F2FACA00FC8314 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E130EA5B18F2FACA00FC8314 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E130EA5A18F2FACA00FC8314 /* Bad Breath test.app */,
+				E130EA7E18F2FACA00FC8314 /* Bad Breath testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E130EA5C18F2FACA00FC8314 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E130EA5D18F2FACA00FC8314 /* Foundation.framework */,
+				E130EA5F18F2FACA00FC8314 /* CoreGraphics.framework */,
+				E130EA6118F2FACA00FC8314 /* UIKit.framework */,
+				E130EA7F18F2FACA00FC8314 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E130EA6318F2FACA00FC8314 /* Bad Breath test */ = {
+			isa = PBXGroup;
+			children = (
+				E130EA6C18F2FACA00FC8314 /* AppDelegate.h */,
+				E130EA6D18F2FACA00FC8314 /* AppDelegate.m */,
+				E130EA6F18F2FACA00FC8314 /* Main_iPhone.storyboard */,
+				E130EA7218F2FACA00FC8314 /* Main_iPad.storyboard */,
+				E130EA7518F2FACA00FC8314 /* ViewController.h */,
+				E130EA7618F2FACA00FC8314 /* ViewController.m */,
+				E130EA7818F2FACA00FC8314 /* Images.xcassets */,
+				E130EA6418F2FACA00FC8314 /* Supporting Files */,
+			);
+			path = "Bad Breath test";
+			sourceTree = "<group>";
+		};
+		E130EA6418F2FACA00FC8314 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E130EA6518F2FACA00FC8314 /* Bad Breath test-Info.plist */,
+				E130EA6618F2FACA00FC8314 /* InfoPlist.strings */,
+				E130EA6918F2FACA00FC8314 /* main.m */,
+				E130EA6B18F2FACA00FC8314 /* Bad Breath test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E130EA8518F2FACA00FC8314 /* Bad Breath testTests */ = {
+			isa = PBXGroup;
+			children = (
+				E130EA8B18F2FACA00FC8314 /* Bad_Breath_testTests.m */,
+				E130EA8618F2FACA00FC8314 /* Supporting Files */,
+			);
+			path = "Bad Breath testTests";
+			sourceTree = "<group>";
+		};
+		E130EA8618F2FACA00FC8314 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E130EA8718F2FACA00FC8314 /* Bad Breath testTests-Info.plist */,
+				E130EA8818F2FACA00FC8314 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E130EA5918F2FACA00FC8314 /* Bad Breath test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E130EA8F18F2FACA00FC8314 /* Build configuration list for PBXNativeTarget "Bad Breath test" */;
+			buildPhases = (
+				E130EA5618F2FACA00FC8314 /* Sources */,
+				E130EA5718F2FACA00FC8314 /* Frameworks */,
+				E130EA5818F2FACA00FC8314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bad Breath test";
+			productName = "Bad Breath test";
+			productReference = E130EA5A18F2FACA00FC8314 /* Bad Breath test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E130EA7D18F2FACA00FC8314 /* Bad Breath testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E130EA9218F2FACA00FC8314 /* Build configuration list for PBXNativeTarget "Bad Breath testTests" */;
+			buildPhases = (
+				E130EA7A18F2FACA00FC8314 /* Sources */,
+				E130EA7B18F2FACA00FC8314 /* Frameworks */,
+				E130EA7C18F2FACA00FC8314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E130EA8418F2FACA00FC8314 /* PBXTargetDependency */,
+			);
+			name = "Bad Breath testTests";
+			productName = "Bad Breath testTests";
+			productReference = E130EA7E18F2FACA00FC8314 /* Bad Breath testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E130EA5218F2FACA00FC8314 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AppStarz;
+				TargetAttributes = {
+					E130EA7D18F2FACA00FC8314 = {
+						TestTargetID = E130EA5918F2FACA00FC8314;
+					};
+				};
+			};
+			buildConfigurationList = E130EA5518F2FACA00FC8314 /* Build configuration list for PBXProject "Bad Breath test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E130EA5118F2FACA00FC8314;
+			productRefGroup = E130EA5B18F2FACA00FC8314 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E130EA5918F2FACA00FC8314 /* Bad Breath test */,
+				E130EA7D18F2FACA00FC8314 /* Bad Breath testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E130EA5818F2FACA00FC8314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E130EA7418F2FACA00FC8314 /* Main_iPad.storyboard in Resources */,
+				E130EA7918F2FACA00FC8314 /* Images.xcassets in Resources */,
+				E130EA7118F2FACA00FC8314 /* Main_iPhone.storyboard in Resources */,
+				E130EA6818F2FACA00FC8314 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E130EA7C18F2FACA00FC8314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E130EA8A18F2FACA00FC8314 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E130EA5618F2FACA00FC8314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E130EA7718F2FACA00FC8314 /* ViewController.m in Sources */,
+				E130EA6E18F2FACA00FC8314 /* AppDelegate.m in Sources */,
+				E130EA6A18F2FACA00FC8314 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E130EA7A18F2FACA00FC8314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E130EA8C18F2FACA00FC8314 /* Bad_Breath_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E130EA8418F2FACA00FC8314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E130EA5918F2FACA00FC8314 /* Bad Breath test */;
+			targetProxy = E130EA8318F2FACA00FC8314 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E130EA6618F2FACA00FC8314 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E130EA6718F2FACA00FC8314 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E130EA6F18F2FACA00FC8314 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E130EA7018F2FACA00FC8314 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E130EA7218F2FACA00FC8314 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E130EA7318F2FACA00FC8314 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E130EA8818F2FACA00FC8314 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E130EA8918F2FACA00FC8314 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E130EA8D18F2FACA00FC8314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E130EA8E18F2FACA00FC8314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E130EA9018F2FACA00FC8314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bad Breath test/Bad Breath test-Prefix.pch";
+				INFOPLIST_FILE = "Bad Breath test/Bad Breath test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E130EA9118F2FACA00FC8314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bad Breath test/Bad Breath test-Prefix.pch";
+				INFOPLIST_FILE = "Bad Breath test/Bad Breath test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E130EA9318F2FACA00FC8314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bad Breath test.app/Bad Breath test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bad Breath test/Bad Breath test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bad Breath testTests/Bad Breath testTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E130EA9418F2FACA00FC8314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bad Breath test.app/Bad Breath test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bad Breath test/Bad Breath test-Prefix.pch";
+				INFOPLIST_FILE = "Bad Breath testTests/Bad Breath testTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E130EA5518F2FACA00FC8314 /* Build configuration list for PBXProject "Bad Breath test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E130EA8D18F2FACA00FC8314 /* Debug */,
+				E130EA8E18F2FACA00FC8314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E130EA8F18F2FACA00FC8314 /* Build configuration list for PBXNativeTarget "Bad Breath test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E130EA9018F2FACA00FC8314 /* Debug */,
+				E130EA9118F2FACA00FC8314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E130EA9218F2FACA00FC8314 /* Build configuration list for PBXNativeTarget "Bad Breath testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E130EA9318F2FACA00FC8314 /* Debug */,
+				E130EA9418F2FACA00FC8314 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E130EA5218F2FACA00FC8314 /* Project object */;
+}
