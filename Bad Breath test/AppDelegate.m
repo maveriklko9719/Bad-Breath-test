@@ -7,11 +7,12 @@
 //
 
 #import "AppDelegate.h"
-
+//#import <RevMobAds/RevMobAds.h>
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+   //   [RevMobAds startSessionWithAppID:@"533ee27c23baf02027159df1"];
     // Override point for customization after application launch.
     return YES;
 }
